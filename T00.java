@@ -10,8 +10,6 @@ public class T00 {
     public static void main(String[] args) {
         int bil1, bil2, hasil, tambah, kali;
 
-        System.out.println("Selamat Datang");
-        System.out.println("Silahkan Masukkan Bilangan ke-1 dan Bilangan ke-2");
         bil1 = Integer.parseInt(input.nextLine());
         bil2 = Integer.parseInt(input.nextLine());
         if (bil1 % 2 == 0) {
